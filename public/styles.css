@@ -1,0 +1,9 @@
+body{
+    background-color: bisque;
+}
+
+.fix {
+    border: dotted;
+    margin: auto;
+    text-align: center;
+}
