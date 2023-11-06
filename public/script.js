@@ -1,5 +1,5 @@
 const showAnimals = async () => {
-    let response = await fetch("http://localhost:3000/api/fruits");//
+    let response = await fetch("https://assignment13-xp9z.onrender.com/");//
     let animalsJSON = await response.json();
     let animalsDiv = document.getElementById("animalsDiv");
 
@@ -26,7 +26,7 @@ const showAnimals = async () => {
         p3.innerHTML = animal.countries;
 
         const img1 = document.createElement("img");
-        img1.src = "http://localhost:3000/" + animal.img;
+        img1.src = "https://assignment13-xp9z.onrender.com/" + animal.img;
         section.append(h1);
         section.append(img1);
         section.append(p);
