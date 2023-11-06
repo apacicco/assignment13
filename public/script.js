@@ -1,5 +1,5 @@
 const showAnimals = async () => {
-    let response = await fetch("https://assignment13-xp9z.onrender.com//api/fruits");//
+    let response = await fetch("https://assignment13-xp9z.onrender.com/api/fruits");//
     let animalsJSON = await response.json();
     let animalsDiv = document.getElementById("animalsDiv");
 
